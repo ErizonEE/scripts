@@ -1,4 +1,4 @@
-# Generate ssh key pair
+## Generate ssh key pair
 `ssh-keygen -t ed25519 -C "erizon.encina@gmail.com"`
 
 # Configuration example for ssh [~/.ssh/config]
@@ -11,3 +11,7 @@ Host github.com
 ```
 
 <b>Remember to define `chmod 600 ~/.ssh/config`</b>
+
+---
+## Add docker group and attach user
+`sudo groupadd -f docker && sudo usermod -aG docker $USER
