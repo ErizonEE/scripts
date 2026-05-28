@@ -14,4 +14,4 @@ Host github.com
 
 ---
 ## Add docker group and attach user
-`sudo groupadd -f docker && sudo usermod -aG docker $USER
+`sudo groupadd -f docker && sudo usermod -aG docker $USER`
